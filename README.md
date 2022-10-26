@@ -44,7 +44,7 @@ node ./main.js
 # FAQ
 - What happens if a patron doesn't have a drive associated email account?
   
-  In cases where a patron doesn't have their email account attached to Google Drive, they will still be given viewing access to their tier directory, but will have no access to the reward directories. They will recieve an email informing them that they will need to link their email account to Google Drive in order to view the files that have been shared with them.
+  In cases where a patron doesn't have their email account attached to Google Drive, they will receive an email notifying them that a directory has been shared with them, but upon attempting to access the directory they will be notified they need a Google account to view the contents. This is the main reason I developed the Patreon-to-Dropbox program as it doesn't have this limitation. If you're set on utilizing Google Drive, I recommend you notify potential patrons upfront, and recommend that if an already subscribed patron doesn't have a Google account that they get one and change their Patreon account email to use their new Google account.
 # Troubleshooting
 - Verify the Tier names you're referencing match EXACTLY between Patreon and Google Drive
 ```
