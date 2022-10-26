@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@googleapis/drive": "^3.0.1",
+    "dotenv": "^16.0.3",
+    "googleapis": "^108.0.0",
+    "patreon": "^0.4.1"
+  },
+  "overrides": {
+    "node-fetch": "^2.6.7"
+  }
+}
